@@ -1,1 +1,50 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Promo Card</title>
+  <style>
+    .promo-card {
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      max-width: 300px;
+      padding: 16px;
+      text-align: center;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
 
+    .promo-card img {
+      max-width: 100%;
+      border-radius: 8px;
+    }
+
+    .promo-card h2 {
+      font-size: 1.2em;
+      margin: 12px 0;
+    }
+
+    .promo-card button {
+      background-color: #007bff;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+
+    .promo-card button:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="promo-card">
+    <img src="promo.jpg" alt="Promo Gambar">
+    <h2>Promo Spesial Bulan Ini</h2>
+    <button>Daftar Sekarang</button>
+  </div>
+
+</body>
+</html>
