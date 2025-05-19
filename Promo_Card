@@ -41,7 +41,7 @@
 <body>
 
   <div class="promo-card">
-    <img src="promo.jpg" alt="Promo Gambar">
+    <img src="botol.jpg" alt="PromoCard">
     <h2>Promo Spesial Bulan Ini</h2>
     <button>Daftar Sekarang</button>
   </div>
