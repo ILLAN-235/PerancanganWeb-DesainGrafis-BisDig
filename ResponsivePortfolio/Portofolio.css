@@ -1,28 +1,28 @@
-/* Atur dasar untuk mobile */
-body {
-  padding: 10px;
-  max-width: 100%;
-  overflow-x: hidden; /* Hindari scroll horizontal */
+/* Container untuk gambar */
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 16px;
+  padding: 16px;
 }
 
-/* Gambar fleksibel */
-img {
-  max-width: 100%;
-  height: auto;
-  display: block;
-  margin: 0 auto;
-}
-
-/* Teks tidak keluar layar */
-p, h1, h2, h3 {
-  word-wrap: break-word;
-  margin: 10px 0;
-}
-
-/* Container project */
-.project {
-  margin-bottom: 20px;
-  padding: 10px;
-  border: 1px solid #eee;
+/* Style gambar */
+.gallery img {
+  width: 100%;    /* Gambar mengisi lebar container */
+  height: auto;   /* Tinggi menyesuaikan proporsi */
   border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+/* Efek hover */
+.gallery img:hover {
+  transform: scale(1.03);
+}
+
+/* Responsive breakpoint untuk mobile */
+@media (max-width: 600px) {
+  .gallery {
+    grid-template-columns: 1fr;  /* 1 kolom di mobile */
+  }
 }
