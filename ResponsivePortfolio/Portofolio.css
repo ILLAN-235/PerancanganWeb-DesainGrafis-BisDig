@@ -1,0 +1,28 @@
+/* Atur dasar untuk mobile */
+body {
+  padding: 10px;
+  max-width: 100%;
+  overflow-x: hidden; /* Hindari scroll horizontal */
+}
+
+/* Gambar fleksibel */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Teks tidak keluar layar */
+p, h1, h2, h3 {
+  word-wrap: break-word;
+  margin: 10px 0;
+}
+
+/* Container project */
+.project {
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #eee;
+  border-radius: 8px;
+}
