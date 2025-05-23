@@ -46,83 +46,92 @@ Responsive Design adalah pendekatan desain web yang membuat tampilan situs menye
 
  4. Homepage
 
-    1. Hierarki Visual
-Prinsip ini mengatur elemen desain berdasarkan tingkat kepentingannya, sehingga pengguna dapat memahami informasi dengan cepat dan alami.
+1. Hierarki Visual
+ Prinsip ini mengatur elemen desain berdasarkan tingkat kepentingannya, sehingga pengguna dapat memahami informasi dengan cepat dan alami.
 
 Penerapan dalam UI/UX:
 
-Ukuran & Skala: Elemen penting (seperti judul atau tombol CTA) dibuat lebih besar untuk menarik perhatian.
+- Ukuran & Skala: Elemen penting (seperti judul atau tombol CTA) dibuat lebih besar untuk menarik perhatian.
 
-Warna & Kontras: Warna cerah atau kontras tinggi digunakan untuk elemen utama (misal: tombol "Beli Sekarang").
+- Warna & Kontras: Warna cerah atau kontras tinggi digunakan untuk elemen utama (misal: tombol "Beli Sekarang").
 
-Typography: Penggunaan font tebal (bold) untuk heading dan font reguler untuk teks pendukung.
+- Typography: Penggunaan font tebal (bold) untuk heading dan font reguler untuk teks pendukung.
 
-Penempatan: Konten utama diletakkan di area yang mudah terlihat (misal: atas halaman atau bagian tengah).
+- Penempatan: Konten utama diletakkan di area yang mudah terlihat (misal: atas halaman atau bagian tengah).
 
-Contoh: Pada landing page, judul produk lebih besar daripada deskripsi, dan tombol CTA berwarna mencolok.
+- Contoh: Pada landing page, judul produk lebih besar daripada deskripsi, dan tombol CTA berwarna mencolok.
+
 
 2. Kontras (Contrast)
+
 Kontras membantu membedakan elemen dan meningkatkan keterbacaan serta aksesibilitas.
 
 Penerapan dalam UI/UX:
 
-Warna: Tombol utama menggunakan warna yang kontras dengan latar belakang (misal: oranye pada biru).
+- Warna: Tombol utama menggunakan warna yang kontras dengan latar belakang (misal: oranye pada biru).
 
-Teks: Teks hitam di atas putih lebih mudah dibaca daripada abu-abu muda.
+- Teks: Teks hitam di atas putih lebih mudah dibaca daripada abu-abu muda.
 
-Shape & Ukuran: Kontras bentuk (misal: tombol bulat di antara kotak) membuat elemen menonjol.
+- Shape & Ukuran: Kontras bentuk (misal: tombol bulat di antara kotak) membuat elemen menonjol.
 
-Contoh: Aplikasi kesehatan menggunakan warna merah untuk notifikasi darurat agar mudah terlihat.
+- Contoh: Aplikasi kesehatan menggunakan warna merah untuk notifikasi darurat agar mudah terlihat.
+
 
 3. Whitespace (Negative Space)
+
 Ruang kosong di sekitar elemen membantu mengurangi kepadatan dan meningkatkan fokus pengguna.
 
 Penerapan dalam UI/UX:
 
-Klaritas: Memberi jarak antar paragraf atau gambar agar konten tidak terlihat berantakan.
+- Klaritas: Memberi jarak antar paragraf atau gambar agar konten tidak terlihat berantakan.
 
-Fokus: Whitespace mengarahkan mata pengguna ke elemen kunci (misal: formulir pendaftaran).
+- Fokus: Whitespace mengarahkan mata pengguna ke elemen kunci (misal: formulir pendaftaran).
 
-Kenyamanan: Desain minimalis dengan ruang lega terasa lebih profesional dan modern.
+- Kenyamanan: Desain minimalis dengan ruang lega terasa lebih profesional dan modern.
 
-Contoh: Situs Apple menggunakan whitespace luas di sekitar produk untuk menciptakan kesan premium.
+- Contoh: Situs Apple menggunakan whitespace luas di sekitar produk untuk menciptakan kesan premium.
+
 
 4. Konsistensi (Consistency)
+
 Konsistensi dalam desain mengurangi kebingungan pengguna dan meningkatkan kemudahan navigasi.
 
 Penerapan dalam UI/UX:
 
-Warna & Font: Palette warna dan font seragam di seluruh halaman.
+- Warna & Font: Palette warna dan font seragam di seluruh halaman.
 
-Pola Interaksi: Tombol dengan fungsi sama memiliki bentuk dan warna yang sama.
+- Pola Interaksi: Tombol dengan fungsi sama memiliki bentuk dan warna yang sama.
 
-Navigasi: Menu selalu berada di posisi yang konsisten (misal: header atau sidebar).
+- Navigasi: Menu selalu berada di posisi yang konsisten (misal: header atau sidebar).
 
-Contoh: Aplikasi seperti Spotify menggunakan warna hijau dan layout konsisten di semua halaman.
+- Contoh: Aplikasi seperti Spotify menggunakan warna hijau dan layout konsisten di semua halaman.
+
 
 5. Prinsip UX: User-Centered Design
+
 Desain harus berfokus pada kebutuhan pengguna, bukan hanya estetika.
 
 Penerapan:
 
-Usability Testing: Menguji desain dengan pengguna nyata untuk identifikasi masalah.
+- Usability Testing: Menguji desain dengan pengguna nyata untuk identifikasi masalah.
 
-Feedback: Menyediakan tombol "Bantuan" atau chat support untuk interaksi.
+- Feedback: Menyediakan tombol "Bantuan" atau chat support untuk interaksi.
 
-Aksesibilitas: Memastikan kontras warna cukup untuk pengguna tunanetra.
+- Aksesibilitas: Memastikan kontras warna cukup untuk pengguna tunanetra.
 
-Contoh: Google menyederhanakan tampilan pencarian untuk memprioritaskan kecepatan dan kemudahan.
+- Contoh: Google menyederhanakan tampilan pencarian untuk memprioritaskan kecepatan dan kemudahan.
 
 Kombinasi Prinsip untuk Pengalaman Optimal
+
 Sebagai contoh, sebuah e-commerce dapat menggunakan:
 
-Hierarki visual: Harga diskon ditampilkan lebih besar daripada harga asli.
+- Hierarki visual: Harga diskon ditampilkan lebih besar daripada harga asli.
 
-Kontras: Tombol "Checkout" berwarna hijau cerah di atas latar putih.
+- Kontras: Tombol "Checkout" berwarna hijau cerah di atas latar putih.
 
-Whitespace: Ruang antar produk agar tidak terlalu padat.
+- Whitespace: Ruang antar produk agar tidak terlalu padat.
 
-Konsistensi: Ikon keranjang belanja sama di seluruh halaman.
+- Konsistensi: Ikon keranjang belanja sama di seluruh halaman.
 
 
 --
