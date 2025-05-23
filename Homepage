@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wireframe Konsultasi Kesehatan</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+      
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f0f0f0;
+        color: #333;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+      }
+      
+      header {
+        background: #e0e0e0;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: sticky;
+        top: 0;
+        z-index: 100;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      }
+      
+      header h1 {
+        font-size: 2.5em;
+        margin-bottom: 8px;
+        color: #2c3e50;
+      }
+      
+      .annotation {
+        font-size: 0.85em;
+        color: #666;
+        font-style: italic;
+        text-align: center;
+        margin-top: 5px;
+      }
+      
+      nav {
+        background: #d0d0d0;
+        padding: 15px 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        flex-wrap: wrap;
+        position: sticky;
+        top: 120px;
+        z-index: 99;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      }
+      
+      nav a {
+        text-decoration: none;
+        color: #333;
+        font-weight: bold;
+        padding: 8px 16px;
+        border-radius: 5px;
+        transition: all 0.3s ease;
+      }
+      
+      nav a:hover {
+        background: #3498db;
+        color: white;
+      }
+      
+      main {
+        flex: 1;
+        display: flex;
+        gap: 20px;
+        padding: 20px;
+        max-width: 1200px;
+        margin: 0 auto;
+        width: 100%;
+      }
+      
+      .left,
+      .center,
+      .right {
+        flex: 1;
+        background: #fff;
+        padding: 25px;
+        border: 2px dashed #aaa;
+        border-radius: 10px;
+        box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+      }
+      
+      .left h2,
+      .center h2,
+      .right h2 {
+        color: #2c3e50;
+        font-size: 1.5em;
+        margin-bottom: 10px;
+        border-bottom: 2px solid #3498db;
+        padding-bottom: 8px;
+      }
+      
+      .left ul {
+        list-style: none;
+        padding: 0;
+      }
+      
+      .left li {
+        background: #ecf0f1;
+        padding: 10px 15px;
+        margin-bottom: 8px;
+        border-radius: 5px;
+        border-left: 4px solid #3498db;
+      }
+      
+      .center {
+        text-align: center;
+      }
+      
+      .center p {
+        font-size: 1.2em;
+        color: #555;
+        margin-bottom: 20px;
+      }
+      
+      .center button {
+        background: linear-gradient(135deg, #3498db, #2c3e50);
+        color: white;
+        border: none;
+        padding: 15px 30px;
+        font-size: 1.1em;
+        border-radius: 25px;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        box-shadow: 0 5px 15px rgba(52, 152, 219, 0.3);
+      }
+      
+      .center button:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 8px 20px rgba(52, 152, 219, 0.4);
+      }
+      
+      .right p {
+        background: #f8f9fa;
+        padding: 15px;
+        border-radius: 8px;
+        margin-bottom: 10px;
+        border-left: 4px solid #27ae60;
+        font-style: italic;
+      }
+      
+      footer {
+        background: #2c3e50;
+        color: white;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: auto;
+      }
+      
+      footer p {
+        font-size: 1.1em;
+        margin-bottom: 5px;
+      }
+      
+      /* Responsive Design */
+      @media (max-width: 768px) {
+        header h1 {
+          font-size: 2em;
+        }
+        
+        nav {
+          top: 100px;
+          gap: 15px;
+        }
+        
+        nav a {
+          font-size: 0.9em;
+          padding: 6px 12px;
+        }
+        
+        main {
+          flex-direction: column;
+          padding: 15px;
+        }
+        
+        .left,
+        .center,
+        .right {
+          padding: 20px;
+        }
+      }
+      
+      @media (max-width: 480px) {
+        header {
+          padding: 15px;
+        }
+        
+        header h1 {
+          font-size: 1.8em;
+        }
+        
+        nav {
+          top: 85px;
+          padding: 10px;
+          gap: 10px;
+        }
+        
+        main {
+          padding: 10px;
+        }
+        
+        .center button {
+          padding: 12px 24px;
+          font-size: 1em;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Konsul Sehat</h1>
+      <div class="annotation">Tempat nyaman dan murah untuk konsultasi Kesehatan</div>
+    </header>
+
+    <nav>
+      <a href="#">Beranda</a>
+      <a href="#">Layanan</a>
+      <a href="#">Dokter</a>
+      <a href="#">Riwayat</a>
+      <a href="#">Masuk/Daftar</a>
+      <div class="annotation"> </div>
+    </nav>
+
+    <main>
+      <div class="left">
+        <h2>Fitur Konsultasi</h2>
+        <ul>
+          <li>💬 Chat Dokter</li>
+          <li>📅 Jadwal Temu</li>
+          <li>📋 Riwayat Konsultasi</li>
+          <li>💊 Resep Digital</li>
+          <li>🔔 Reminder Obat</li>
+        </ul>
+        <div class="annotation"> </div>
+      </div>
+
+      <div class="center">
+        <h2>Butuh Konsultasi Cepat?</h2>
+        <p>Dapatkan Konsultasi Kesehatan Online dengan Mudah dan Terpercaya</p>
+        <button>Mulai Konsultasi Sekarang</button>
+        <div class="annotation"> </div>
+      </div>
+
+      <div class="right"
+        <h2>Testimoni Pengguna</h2>
+        <p>"Pelayanan sangat cepat dan dokternya sangat membantu!"</p>
+        <p>"Dokternya ramah, profesional, dan mudah dihubungi."</p>
+        <p>"Aplikasi yang sangat membantu untuk konsultasi darurat."</p>
+        <div class="annotation"> </div>
+      </div>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 KonsulSehat - Platform Konsultasi Kesehatan Terpercaya</p>
+      <div class="annotation"> </div>
+    </footer>
+  </body>
+</html>
