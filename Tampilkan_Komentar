@@ -1,27 +1,85 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Blog dengan Komentar</title>
-  <style>
-    #komentar { display: none; margin-top: 10px; }
-  </style>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Blog Comments Toggle</title>
+<style>
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 2rem;
+    background: #f0f2f5;
+    color: #333;
+  }
+
+  button.toggle-comments {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 0.6rem 1.2rem;
+    font-size: 1rem;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 1rem;
+  }
+
+  button.toggle-comments:hover {
+    background-color: #0056b3;
+  }
+
+  .comments {
+    background: white;
+    border-radius: 8px;
+    padding: 1rem 1.5rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    max-width: 600px;
+  }
+
+  .comment {
+    border-bottom: 1px solid #eee;
+    padding: 0.5rem 0;
+  }
+
+  .comment:last-child {
+    border-bottom: none;
+  }
+
+  .comment strong {
+    color: #007bff;
+  }
+</style>
 </head>
 <body>
-  <h2>Judul Artikel Blog</h2>
-  <p>Ini adalah isi artikel blog.</p>
-  <button onclick="tampilkanKomentar()">Tampilkan Komentar</button>
-  <div id="komentar">
-    <p><strong>Ani:</strong> Artikel ini sangat membantu!</p>
-    <p><strong>Budi:</strong> Saya setuju, penjelasannya jelas.</p>
-  </div>
 
-  <script>
-    function tampilkanKomentar() {
-      const komentar = document.getElementById('komentar');
-      komentar.style.display = komentar.style.display === 'none' ? 'block' : 'none';
+<button class="toggle-comments" id="toggleBtn">Tampilkan Komentar</button>
+
+<div class="comments" id="comments" style="display: none;">
+  <div class="comment">
+    <strong>Ani:</strong> Artikel ini sangat membantu, terima kasih!
+  </div>
+  <div class="comment">
+    <strong>Budi:</strong> Saya setuju dengan poin-poin yang disampaikan.
+  </div>
+  <div class="comment">
+    <strong>Clara:</strong> Bisa dijelaskan lebih lanjut pada bagian terakhir?
+  </div>
+</div>
+
+<script>
+  const toggleBtn = document.getElementById('toggleBtn');
+  const commentsDiv = document.getElementById('comments');
+
+  toggleBtn.addEventListener('click', () => {
+    if (commentsDiv.style.display === 'none') {
+      commentsDiv.style.display = 'block';
+      toggleBtn.textContent = 'Sembunyikan Komentar';
+    } else {
+      commentsDiv.style.display = 'none';
+      toggleBtn.textContent = 'Tampilkan Komentar';
     }
-  </script>
+  });
+</script>
+
 </body>
 </html>
