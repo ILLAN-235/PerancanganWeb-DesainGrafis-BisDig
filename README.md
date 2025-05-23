@@ -132,13 +132,13 @@ Konsistensi: Ikon keranjang belanja sama di seluruh halaman.
 
 1. Kerangka Dasar HTML5
 
-- <!DOCTYPE html>: Deklarasi tipe dokumen sebagai HTML5.
+- !DOCTYPE html: Deklarasi tipe dokumen sebagai HTML5.
 
-- <html>: Elemen root yang membungkus seluruh konten.
+- html: Elemen root yang membungkus seluruh konten.
 
-- <head>: Berisi metadata seperti judul halaman (<title>), deskripsi SEO, dan link ke CSS.
+- head: Berisi metadata seperti judul halaman (title), deskripsi SEO, dan link ke CSS.
 
-- <body>: Tempat semua konten yang terlihat oleh pengguna.
+- body: Tempat semua konten yang terlihat oleh pengguna.
 
 
 2. Komponen Halaman Profil
@@ -155,7 +155,7 @@ Foto Profil:
 
 Nama Fotografer:
 
-- Heading besar (<h1>) sebagai fokus utama (prinsip hierarki visual)
+- Heading besar (h1) sebagai fokus utama (prinsip hierarki visual)
 
 Tagline:
 
