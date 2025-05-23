@@ -276,3 +276,6 @@ Konsistensi:
 
 - Galeri menunjukkan bukti karya (visual > teks).
 
+
+
+[Profile](https://github.com/ILLAN-235/PerancanganWeb-DesainGrafis-BisDig/blob/Koding/Profile/Profile.html)
