@@ -8,7 +8,7 @@ Membuat prototipe desain sebelum implementasi membantu memvisualisasikan ide sec
 Promo Card,
 Promo Card adalah komponen UI yang menampilkan penawaran khusus (seperti diskon atau event) dalam bentuk kartu visual yang terdiri dari gambar, judul, deskripsi, dan tombol aksi (CTA) untuk meningkatkan engagement pengguna.
 
-![Botol](botol.jpg)
+![kasir](https://github.com/ILLAN-235/PerancanganWeb-DesainGrafis-BisDig/blob/Koding/kasir.jpg)
 
 [PromoCard](https://github.com/ILLAN-235/PerancanganWeb-DesainGrafis-BisDig/blob/Koding/Promo_Card)
 
