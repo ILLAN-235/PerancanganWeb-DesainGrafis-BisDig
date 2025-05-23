@@ -140,7 +140,6 @@ Sebagai contoh, sebuah e-commerce dapat menggunakan:
 
 5. Profil
 
-
 1. Kerangka Dasar HTML5
 
 - !DOCTYPE html: Deklarasi tipe dokumen sebagai HTML5.
