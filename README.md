@@ -134,7 +134,7 @@ Sebagai contoh, sebuah e-commerce dapat menggunakan:
 - Konsistensi: Ikon keranjang belanja sama di seluruh halaman.
 
 
---
+[HomePage](https://github.com/ILLAN-235/PerancanganWeb-DesainGrafis-BisDig/blob/Koding/Homepage)
 
 
 
