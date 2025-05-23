@@ -137,7 +137,9 @@ Sebagai contoh, sebuah e-commerce dapat menggunakan:
 --
 
 
+
 5. Profil
+
 
 1. Kerangka Dasar HTML5
 
@@ -150,9 +152,12 @@ Sebagai contoh, sebuah e-commerce dapat menggunakan:
 - body: Tempat semua konten yang terlihat oleh pengguna.
 
 
+
 2. Komponen Halaman Profil
 
+
 A. Header (Bagian Atas)
+
 
 Foto Profil:
 
@@ -162,9 +167,11 @@ Foto Profil:
 
 - Efek bayangan (box-shadow) untuk kedalaman visual
 
+
 Nama Fotografer:
 
 - Heading besar (h1) sebagai fokus utama (prinsip hierarki visual)
+
 
 Tagline:
 
@@ -173,7 +180,9 @@ Tagline:
 - Warna lebih soft untuk kontras yang seimbang
 
 
+
 B. Deskripsi (Bio)
+
 
 Paragraf Pengantar:
 
@@ -181,11 +190,13 @@ Paragraf Pengantar:
 
 - Jarak antar baris (line-height) yang nyaman dibaca
 
+
 Penataan Layout:
 
 - Lebar teks dibatasi (misal: 800px) untuk keterbacaan
 
 - Posisi ditengah (text-align: center) untuk fokus
+
 
 
 C. Tautan Media Sosial
@@ -196,12 +207,15 @@ C. Tautan Media Sosial
 
 - Efek hover (sedikit naik saat kursor mendekat) untuk interaktivitas
 
+
 Aksesibilitas:
 
 - Label tersembunyi (aria-label) untuk pembaca layar
 
 
+
 D. Galeri Contoh Karya
+
 
 Grid Foto:
 
@@ -210,6 +224,7 @@ Grid Foto:
 - Rasio gambar konsisten (misal: 1:1 atau 4:3)
 
 - Efek zoom halus saat dihover
+
 
 
 E. Footer (Bagian Bawah)
@@ -221,10 +236,12 @@ E. Footer (Bagian Bawah)
 - Hak cipta sederhana
 
 
+
 3. Prinsip UI/UX yang Diterapkan
 Hierarki Visual:
 
 - Nama > Tagline > Bio > Galeri (ukuran font menurun sesuai pentingnya).
+
 
 Kontras:
 
@@ -232,17 +249,20 @@ Kontras:
 
 - Tombol media sosial mencolok dengan warna brand.
 
+
 Whitespace:
 
 - Jarak antar section cukup longgar (40-60px).
 
 - Padding di sekitar teks untuk pernapasan visual.
 
+
 Konsistensi:
 
 - Warna primer/secondary yang seragam.
 
 - Gaya tombol dan font sama di seluruh halaman.
+
 
 
 4. Alur Pengalaman Pengguna
